@@ -69,3 +69,17 @@ $ open config
      git config user.email "personal-email@email.com"
      git config user.name "Imran"
 ```
+
+## Accessing Local git Config File
+
+```bash
+# cd into project folder
+$ git config -e
+```
+
+If repo access is an issue despite defining your account in the global config file, check if url matches the host name defined in the global config. In this example the host name is `github.com-personal` and the github user is `mi-mran`.
+
+```
+[remote "origin"]
+	url = git@github.com-personal:mi-mran/general_configs.git
+```
