@@ -3,3 +3,4 @@
 ## Relevant Topics
 1. Git Local Setup
 2. Python Environments
+3. Mac-related Issues
